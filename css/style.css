@@ -1,0 +1,66 @@
+body {
+    
+}
+
+#banner {
+     width: 100%;  /* Ajusta de acordo com o tamanho da página*/
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+.tituloPrincipal {
+    padding-left: 20px;
+}
+
+.tituloCentralizado{
+    text-align: center;
+    /* height: 150px;
+    border: 10px solid #000000;
+    padding: 20px; Espaçamento interno
+   margin: 40px; Espaçamento externo */
+}
+
+p {
+    text-align: center;
+
+}
+
+/*# para id */
+#mudarFonte {
+    font-size: 20px;
+}
+
+/*Aqui ele busca o strong que está dentro do em 
+00 = ausência de cor
+F = máximo de cor*/
+em strong {
+    color: #FF0000;
+}
+
+/* . para classes*/
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    /* Block ocupa a largura inteira da página, a linha ocupa a linha inteira
+    Inline não deixa alterar o espaçamento interno e externo
+    Inline e block ele bloqueia a largura, porém, ela é fixa, a gente quem dá o tamanho
+    podemos mexer também no expaçamento, etc*/
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%; 
+}
+
+.imagemBeneficios {
+    width: 50%;
+}
